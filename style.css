@@ -1,0 +1,53 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	position:relative;
+}
+.opener_overlay{
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+}
+.opener_left_half{
+	width:50%;
+	height:100vh;
+	background:#000;
+	float: left;
+	display: block;
+}
+.opener_right_half{
+	width:50%;
+	height:100vh;
+	background:#000;
+	float: right;
+	display: block;
+}
+.opener_notice{
+	position: fixed;
+	background:#fff;
+	width:400px;
+	height:300px;
+	left:50%;
+	margin-left: -200px;
+	top: 20%;
+	padding:20px;
+}
+.opener_notice button{
+	width: 100px;
+    margin: 25px auto;
+    display: block;
+    padding: 10px 20px;
+}
+
+
+/* The css for main content */
+.main{
+	width:960px;
+	margin:0 auto;
+}
+
+
